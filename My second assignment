@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+		//first variable declaration 
+		   int i=4;
+		   double d=4.0;
+		   string s="Polyilaro";
+		//second variable declaration 
+		  // int i;
+		  // double d;
+		  // string s;
+		  
+		  //Reading input 
+		  Console.WriteLine ("Enter integer number");
+         int a = int.Parse(Console.ReadLine ());
+         Console.WriteLine ("Enter double number");
+         double b = double.Parse(Console.ReadLine ())
+         Console.WriteLine ("Enter a string");
+         string c = Console.ReadLine ();
+         //printing the sum of integer number
+         Console.WriteLine (a + i);
+         //printing the sum of double number scaled to one decimal place 
+         Console.WriteLine ((d + b).Tostring("F1"));
+         //printing the concatenation string together
+         Console.WriteLine (s +"" + c);
+
+		}
+	}
+}
